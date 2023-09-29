@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-file_path = "dataset.csv"
+file_path = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTSS-TcErkXNk8KB0AlijhitwetxeHD2M3R0HJl2QPMAyFq0fxFX4PFKnzAWLDnratIz67DNL6GsZnV/pub?output=csv"
 df = pd.read_csv(file_path)
 df.fillna(df.mean(), inplace=True)
 
